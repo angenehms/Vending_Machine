@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+
+        <header>
+
+            <h1 class="hidden">ColaCola</h1>
+            <img class="header_logo" src="/mediaquery/logo.png" alt="콜라콜라 로고">
+
+        </header>
+
+
+        <main>
+            <div class="section_wrapper">
+
+                <section class="section_left">
+
+                    <ul class="section_left_drink_ul">
+                        <li class="section_left_drink_li section_left_drink_li_select">
+                            <img class="section_left_cola_image" src="mediaquery/Original_Cola.png" alt="Original_Cola">
+                            <p class="section_left_cola_name">Original_Cola</p>
+                            <button class="section_left_cola_price">1000원</button>
+                        </li>
+
+                        <li class="section_left_drink_li">
+
+                            <div class="sold_out">
+                                <img class="sold_out_logo" src="/mediaquery/Sold-out.png" alt="sold_out">
+                            </div>
+                            
+                            <img class="section_left_cola_image" src="/mediaquery/Violet_Cola.png" alt="Violet_Cola">
+                            <p class="section_left_cola_name">Violet_Cola</p>
+                            <button class="section_left_cola_price">1000원</button>
+                        </li>
+
+                        <li class="section_left_drink_li">
+                            <img class="section_left_cola_image" src="/mediaquery/Yellow_Cola.png" alt="Yellow_Cola">
+                            <p class="section_left_cola_name">Yellow_Cola</p>
+                            <button class="section_left_cola_price">1000원</button>
+                        </li>
+
+                        <li class="section_left_drink_li">
+                            <img class="section_left_cola_image" src="/mediaquery/Cool_Cola.png" alt="Cool_Cola">
+                            <p class="section_left_cola_name">Cool_Cola</p>
+                            <button class="section_left_cola_price">1000원</button>
+                        </li>
+
+                        <li class="section_left_drink_li section_left_drink_li_select">
+                            <img class="section_left_cola_image" src="/mediaquery/Green_Cola.png" alt="Green_Cola">
+                            <p class="section_left_cola_name">Green_Cola</p>
+                            <button class="section_left_cola_price">1000원</button>
+                        </li>
+
+                        <li class="section_left_drink_li">
+                            <img class="section_left_cola_image" src="/mediaquery/Orange_Cola.png" alt="Orange_Cola">
+                            <p class="section_left_cola_name">Orange_Cola</p>
+                            <button class="section_left_cola_price">1000원</button>
+                        </li>
+                    </ul>
+
+
+
+                    <div class="section_left_cal">
+
+                        <!-- <input class="section_left_cal_left_money" type="text"> -->
+                        <p class="section_left_cal_left_money">
+                            <span>잔액 :</span>
+                            <span class="section_left_cal_left_money_amount">1,000원</span>
+                        </p>
+                        <button class="section_left_cal_refund">거스름돈 반환</button>
+                        <input class="section_left_cal_amount" type="text" placeholder="입금액 입력">
+                        <button class="section_left_cal_sendmoney">입금</button>
+
+                    </div>
+
+
+
+                    <div class="section_left_selection">
+                        <ul class="section_left_selection_ul">
+                            <li class="section_left_selection_li">
+                                <img class="section_left_selection_cola_image" src="mediaquery/Original_Cola.png" alt="Original_Cola">
+                                <span class="section_left_got_cola_li_name">
+                                    Original_Cola
+                                </span>
+                                <p class="section_left_selection_number">1</p>
+                                <!-- <input class="section_left_selection_number" type="text"> -->
+                            </li>
+
+
+                            <li class="section_left_selection_li">
+                                <img class="section_left_selection_cola_image" src="mediaquery/Green_Cola.png" alt="Original_Cola">
+                                <span class="section_left_got_cola_li_name">
+                                    Green_Cola
+                                </span>
+                                <p class="section_left_selection_number">2</p>
+                                <!-- <input class="section_left_selection_number" type="text"> -->
+                            </li>
+                        </ul>
+
+                        <button class="section_left_selection_get_button">획득</button>
+                    </div>
+                </section>
+
+                
+                <section class="section_right">
+                    <div class="section_right_have_money">
+                        <!-- <input class="section_right_have_money_amount" type="text" placeholder="소지금:25,000원"> -->
+                        <p class="section_right_have_money_amount">
+                            <span>소지금 :</span>
+                            <span class="section_left_cal_left_money_amount">25,000원</span>
+                        </p>
+                    </div>
+
+
+                    <div class="section_right_got">
+                        
+                        <p class="section_right_got_cola">획득한 음료</p>
+                        <div class="section_right_got_list_wrapper">
+                            <ul class="section_right_got_cola_ul">
+                                <li class="section_right_got_cola_li">
+                                    <img class="section_right_got_cola_image" src="mediaquery/Original_Cola.png" alt="Original_Cola">
+                                    <span class="section_right_got_cola_li_name">
+                                        Original_Cola
+                                    </span>
+                                    <p class="section_right_got_cola_number">1</p>
+                                    <!-- <input class="section_right_got_cola_number" type="text"> -->
+                                </li>
+
+                                <li class="section_right_got_cola_li">
+                                    <img class="section_right_got_cola_image" src="mediaquery/Green_Cola.png" alt="Original_Cola">
+                                    <span class="section_right_got_cola_li_name">
+                                        Green_Cola
+                                    </span>
+                                    <p class="section_right_got_cola_number">2</p>
+                                    <!-- <input class="section_right_got_cola_number" type="text"> -->
+                                </li>
+
+
+                                <li class="section_right_got_cola_li">
+                                    <img class="section_right_got_cola_image" src="mediaquery/Orange_Cola.png" alt="Original_Cola">
+                                    <span class="section_right_got_cola_li_name">
+                                        Orange_Cola
+                                    </span>
+                                    <p class="section_right_got_cola_number">1</p>
+                                    <!-- <input class="section_right_got_cola_number" type="text"> -->
+                                </li>
+
+
+                                <li class="section_right_got_cola_li">
+                                    <img class="section_right_got_cola_image" src="mediaquery/Violet_Cola.png" alt="Original_Cola">
+                                    <span class="section_right_got_cola_li_name">
+                                        Violet_Cola
+                                    </span>
+                                    <p class="section_right_got_cola_number">5</p>
+                                    <!-- <input class="section_right_got_cola_number" type="text"> -->
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="section_right_total_amount">
+                            <span>총금액 :</span>
+                            <span class="section_right_sum_price2">9,000원</span>
+                        </div>
+                        
+                    </div>
+                </section>
+
+            </div>
+        </main>
+
+    </div> 
+
+</body>
+</html>
