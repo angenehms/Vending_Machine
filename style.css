@@ -83,14 +83,14 @@ header {
     position: relative; /* 품절 */
 }
 
-.section_left_drink_li.section_left_drink_li_select {
-    border: 3px solid #6327FE;
-}
-
-/* .section_left_drink_li:hover {
-
+/* .section_left_drink_li.section_left_drink_li_select {
     border: 3px solid #6327FE;
 } */
+
+.section_left_drink_li:hover {
+    outline: 3px solid #6327FE;
+}
+
 
 .sold_out { /* 품절 */
     position: absolute;
